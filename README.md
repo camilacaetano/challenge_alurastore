@@ -1,83 +1,72 @@
+
 # Alura Store – Análise de Vendas com Python
-Repositório desenvolvido como parte do desafio de Python para Data Science da Alura. O objetivo é aplicar técnicas de análise de dados para extrair insights relevantes sobre o desempenho de vendas da Alura Store.
 
-📊 Propósito da Análise
-Este projeto visa:
+Este projeto faz parte do desafio de Python para Data Science da Alura. Seu objetivo é analisar dados de vendas de uma loja virtual, extraindo insights relevantes para o negócio.
 
-Explorar e entender o comportamento de vendas da Alura Store.
+## 🎯 Propósito da Análise
 
-Identificar padrões de consumo e categorias de produtos mais vendidos.
+O propósito desta análise é compreender o comportamento de vendas da loja Alura Store, identificando padrões, tendências e oportunidades de melhoria. Através da exploração dos dados, buscamos responder perguntas como:
 
-Gerar visualizações que auxiliem na tomada de decisões estratégicas.
+Quais produtos têm maior volume de vendas?
 
-🗂️ Estrutura do Projeto
-O repositório está organizado da seguinte forma:
+Quais são os períodos de pico nas vendas?
 
-bash
-Copiar
-Editar
-challenge_alurastore/
-├── AluraStoreBr.ipynb         # Notebook principal com a análise dos dados
-├── base-de-dados-challenge-1/ # Pasta contendo os arquivos de dados utilizados
-└── README.md                  # Documentação do projeto
+Como o ticket médio varia ao longo do tempo?
 
-📈 Exemplos de Gráficos e Insights Obtidos
-Durante a análise, foram geradas diversas visualizações para melhor compreensão dos dados. Alguns exemplos incluem:
+Há correlação entre categorias de produtos e volume de vendas?
+## 📊 Exemplos de Gráficos e Insights
 
-Distribuição de Vendas por Categoria de Produto:
+Durante a análise, foram gerados diversos gráficos para melhor compreensão dos dados. Alguns exemplos incluem:
 
-Evolução Mensal das Vendas:
+Gráfico de Barras: Mostrando os produtos mais vendidos.
 
-Top 10 Produtos Mais Vendidos:
+Série Temporal: Evolução das vendas ao longo dos meses.
 
-🚀 Instruções para Executar o Notebook
+Boxplot: Distribuição do ticket médio por categoria de produto.
+
+Heatmap: Correlação entre diferentes variáveis de vendas.
+
+Esses gráficos auxiliaram na identificação de padrões sazonais, produtos com maior desempenho e segmentos com potencial de crescimento.
+
+
+## 🚀 Instruções para Executar o Notebook
+
 Para reproduzir a análise em sua máquina local, siga os passos abaixo:
 
-Clone o repositório:
+1. Clone o repositório
 
-bash
-Copiar
-Editar
+```bash
 git clone https://github.com/camilacaetano/challenge_alurastore.git
 cd challenge_alurastore
-Crie um ambiente virtual (opcional, mas recomendado):
+```
 
-bash
-Copiar
-Editar
+2. Crie e ative um ambiente virtual (opcional, mas recomendado)
+```bash
 python -m venv venv
 source venv/bin/activate  # No Windows: venv\Scripts\activate
-Instale as dependências necessárias:
+```
 
-bash
-Copiar
-Editar
-pip install -r requirements.txt
-Observação: Caso o arquivo requirements.txt não esteja presente, instale manualmente as bibliotecas utilizadas no notebook, como pandas, matplotlib, seaborn, entre outras.
+3. Instale as dependências necessárias
+```bash
+pip install pandas matplotlib seaborn jupyter
+```
 
-Execute o notebook:
+4. Inicie o Jupyter Notebook
+```bash
+jupyter notebook
+```
 
-bash
-Copiar
-Editar
-jupyter notebook AluraStoreBr.ipynb
-Isso abrirá o notebook em seu navegador padrão, permitindo que você explore e execute as células conforme necessário.
+5. Abra o notebook
+No navegador que será aberto, clique em AluraStoreBr.ipynb para visualizar e executar as células do notebook.
+## 🧪 Tecnologias Utilizadas
+As seguintes ferramentas e bibliotecas foram utilizadas no projeto:
 
-🧰 Tecnologias Utilizadas
-Python 3.x
+Python: Linguagem de programação principal.
 
-Jupyter Notebook
+Pandas: Manipulação e análise de dados.
 
-Pandas
+Matplotlib: Criação de gráficos estáticos.
 
-Matplotlib
+Seaborn: Visualização de dados estatísticos.
 
-Seaborn
-GitHub
-+1
-GitHub Docs
-+1
-Alura
-+1
-FreeCodeCamp
-+1
+Jupyter Notebook: Ambiente interativo para análise de dados.
